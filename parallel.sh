@@ -2,7 +2,7 @@
 
 MAX_CHILDREN=4
 
-function parallel {
+parallel() {
   local time1=$(date +"%H:%M:%S")
   local time2=""
 
